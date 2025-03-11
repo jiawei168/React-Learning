@@ -1,0 +1,86 @@
+/* NavBar Container */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f6f6f6;
+  color: white;
+  width: 800px;
+}
+
+/* Nav Links */
+.nav-links {
+  display: flex;
+  gap: 20px;
+  background-color: #d0d1d2;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #555;
+}
+
+/* User Profile */
+
+.user-profile {
+  display: flex;
+  flex-direction: column;
+
+  width: 280px;
+  background-color: #bdbdbd;
+  margin-left: 20px;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 60%;
+  margin-top: 5px;
+}
+
+.user-profile-edit,
+.user-profile-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.user-profile-edit input,
+.user-profile-edit textarea {
+  width: 80%;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.user-profile-edit textarea {
+  resize: vertical;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
