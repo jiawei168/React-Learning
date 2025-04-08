@@ -1,0 +1,107 @@
+/* HotelList.module.css */
+.hotel-list-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-list-container h1 {
+  text-align: center;
+  color: #333;
+}
+
+.hotel-list-container p {
+  text-align: center;
+  color: #666;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-bar button:hover {
+  background-color: #45a049;
+}
+
+.hotel-list {
+  list-style: none;
+  padding: 0;
+}
+
+.hotel-item {
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-image {
+  flex: 1; /* 图片占满整个左侧 */
+  display: flex;
+  align-items: center; /* 垂直居中 */
+  justify-content: center; /* 水平居中 */
+}
+
+.hotel-image img {
+  max-width: 100%; /* 图片宽度自适应 */
+  height: auto;
+  border-radius: 4px;
+}
+
+/* HotelList.module.css */
+.hotel-info {
+  flex: 2; /* 内容占右侧 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 垂直居中 */
+  align-items: flex-start; /* 内容左对齐 */
+  gap: 10px; /* 信息项之间的间距 */
+}
+
+.hotel-info h3 {
+  margin-top: 0;
+  color: #333;
+  margin-bottom: 5px; /* 添加底部间距 */
+}
+
+.hotel-info p {
+  color: #666;
+  font-size: 14px;
+  margin: 0; /* 移除默认的上下间距 */
+  text-align: left; /* 确保文本左对齐 */
+}
+
+.no-results {
+  text-align: center;
+  color: #999;
+  font-size: 16px;
+}

@@ -1,0 +1,47 @@
+// CityList.js
+import React from "react";
+import { Link } from "react-router-dom";
+import styles from "../styles/CityList.module.css";
+
+const cities = [
+  {
+    id: 1,
+    name: "北京",
+    image:
+      "https://bpic.588ku.com/back_origin_min_pic/20/08/03/94b22bf4fa664c8d56ced698da13dec0.jpg",
+    description: "中国的首都，拥有丰富的历史文化遗产。",
+  },
+  {
+    id: 2,
+    name: "上海",
+    image:
+      "https://ts1.tc.mm.bing.net/th/id/R-C.314b829a490013d9d1ea707d3148258b?rik=I8OpCvkLz00smg&riu=http%3a%2f%2fseopic.699pic.com%2fphoto%2f50008%2f0493.jpg_wh1200.jpg&ehk=%2bKN%2f7RjSaeGGp%2fdP7XsYMsf4xeTrHs9OFIMAWGd4pTU%3d&risl=&pid=ImgRaw&r=0",
+    description: "中国最大的城市，现代化国际大都市。",
+  },
+  {
+    id: 3,
+    name: "广州",
+    image:
+      "https://youimg1.c-ctrip.com/target/0101t12000816x1l1544E_D_10000_1200.jpg?proc=autoorient",
+    description: "华南地区的重要城市，以美食闻名。",
+  },
+];
+
+const CityList = () => {
+  return (
+    <div className={styles.container}>
+      <h2>热门城市</h2>
+      <div className={styles.grid}>
+        {cities.map((city) => (
+          <Link to="/citydetail" key={city.id} className={styles.card}>
+            <img src={city.image} alt={city.name} className={styles.image} />
+            <h3>{city.name}</h3>
+            <p>{city.description}</p>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default CityList;

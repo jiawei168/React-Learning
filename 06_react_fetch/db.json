@@ -1,0 +1,84 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "前端工程化之 Webpack 基础",
+            "body": "Webpack 是一个强大的模块打包工具，在前端工程化中扮演着重要角色。它可以处理各种类型的文件，如 JavaScript、CSS、图片等。通过配置 Webpack，我们可以实现代码分割、压缩、优化等功能，提高项目的性能和可维护性。",
+            "image": "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "author": "张三",
+            "date": "2025-01-10"
+        },
+        {
+            "id": 2,
+            "title": "Babel 在前端工程化中的应用",
+            "body": "Babel 是一个 JavaScript 编译器，它可以将现代 JavaScript 代码转换为向后兼容的版本，确保代码在旧版浏览器中也能正常运行。在前端工程化中，Babel 与 Webpack 等工具结合使用，为项目提供更好的兼容性。",
+            "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "author": "李四",
+            "date": "2025-02-15"
+        },
+        {
+            "id": 3,
+            "title": "前端工程化中的代码规范与 ESLint",
+            "body": "代码规范对于团队协作和项目的可维护性至关重要。ESLint 是一个常用的 JavaScript 代码检查工具，它可以帮助我们发现代码中的潜在问题，确保代码符合团队的规范。通过配置 ESLint，我们可以提高代码的质量和一致性。",
+            "image": "https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "author": "王五",
+            "date": "2025-03-05"
+        },
+        {
+            "id": 4,
+            "title": "前端工程化之 CI/CD 流程搭建",
+            "body": "CI/CD（持续集成/持续部署）是前端工程化中的重要环节。通过搭建 CI/CD 流程，我们可以实现代码的自动化构建、测试和部署，提高开发效率和项目的稳定性。常用的 CI/CD 工具包括 Jenkins、GitLab CI/CD 等。",
+            "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "author": "赵六",
+            "date": "2025-04-20"
+        },
+        {
+            "id": 5,
+            "title": "前端工程化中的模块化开发",
+            "body": "模块化开发是前端工程化的核心思想之一。通过将代码拆分成多个模块，我们可以提高代码的复用性和可维护性。在 JavaScript 中，常用的模块化规范有 CommonJS、ES6 模块等。",
+            "image": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "author": "孙七",
+            "date": "2025-05-12"
+        },
+        {
+            "id": 6,
+            "title": "前端工程化之性能优化策略",
+            "body": "性能优化是前端工程化的重要目标之一。我们可以通过压缩代码、优化图片、使用 CDN 等方式来提高网站的加载速度和性能。此外，还可以使用性能分析工具来找出性能瓶颈并进行针对性优化。",
+            "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "author": "周八",
+            "date": "2025-06-25"
+        },
+        {
+            "id": 7,
+            "title": "前端工程化中的组件化开发",
+            "body": "组件化开发是前端开发的重要趋势。通过将页面拆分成多个组件，我们可以提高代码的复用性和可维护性。在 React、Vue 等框架中，组件化开发得到了广泛应用。",
+            "image": "https://images.pexels.com/photos/1050337/pexels-photo-1050337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "author": "吴九",
+            "date": "2025-07-08"
+        },
+        {
+            "id": 8,
+            "title": "前端工程化之测试框架介绍",
+            "body": "测试是前端工程化中不可或缺的环节。常用的前端测试框架有 Jest、Mocha、Chai 等。通过编写单元测试、集成测试等，可以确保代码的质量和稳定性。",
+            "image": "https://images.pexels.com/photos/270752/pexels-photo-270752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "author": "郑十",
+            "date": "2025-08-18"
+        },
+        {
+            "id": 9,
+            "title": "前端工程化中的微前端架构",
+            "body": "微前端架构是一种将大型前端应用拆分成多个小型、自治的前端应用的架构模式。它可以提高团队的开发效率和项目的可维护性。常用的微前端实现方案有 Single-SPA、Qiankun 等。",
+            "image": "https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "author": "王十一",
+            "date": "2025-09-02"
+        },
+        {
+            "id": 10,
+            "title": "前端工程化之 Docker 容器化部署",
+            "body": "Docker 是一种轻量级的容器化技术，它可以将应用程序及其依赖项打包成一个独立的容器，实现快速部署和迁移。在前端工程化中，使用 Docker 可以提高应用的部署效率和稳定性。",
+            "image": "https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "author": "李十二",
+            "date": "2025-10-15"
+        }
+    ]
+}

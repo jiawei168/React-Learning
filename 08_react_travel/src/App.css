@@ -1,0 +1,30 @@
+nav {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  text-align: center; /* 添加水平居中对齐 */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex; /* 修改为 inline-flex 以适应居中对齐 */
+  gap: 1rem;
+  justify-content: center; /* 添加水平居中对齐 */
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #e9ecef;
+}

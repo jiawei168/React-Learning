@@ -1,0 +1,88 @@
+{
+  "ticket": [
+    {
+      "id": 1,
+      "flight_number": "MU2811",
+      "airline": "China Eastern Airlines",
+      "departure_time": "08:20",
+      "arrival_time": "10:20",
+      "destination_airport": "Beijing Daxing International Airport",
+      "schedule": "Daily",
+      "price": "418"
+    },
+    {
+      "id": 2,
+      "flight_number": "CA1821",
+      "airline": "Air China",
+      "departure_time": "07:30",
+      "arrival_time": "08:25",
+      "destination_airport": "Shanghai Pudong International Airport",
+      "schedule": "Daily",
+      "price": "TBD"
+    }
+  ],
+  "Beijing": [
+    {
+      "id": 1,
+      "flight_number": "MU2811",
+      "airline": "China Eastern Airlines",
+      "departure_time": "08:20",
+      "arrival_time": "10:20",
+      "destination_airport": "Beijing Daxing International Airport",
+      "schedule": "Daily",
+      "price": "418"
+    },
+    {
+      "id": 2,
+      "flight_number": "CA1820",
+      "airline": "Air China",
+      "departure_time": "08:35",
+      "arrival_time": "10:40",
+      "destination_airport": "Beijing Capital International Airport T3",
+      "schedule": "Daily",
+      "price": "700"
+    },
+    {
+      "id": 3,
+      "flight_number": "ZH1820",
+      "airline": "Shenzhen Airlines",
+      "departure_time": "08:35",
+      "arrival_time": "10:40",
+      "destination_airport": "Beijing Capital International Airport T3",
+      "schedule": "Daily",
+      "price": "800"
+    }
+  ],
+  "Shanghai": [
+    {
+      "id": 1,
+      "flight_number": "MU2812",
+      "airline": "China Eastern Airlines",
+      "departure_time": "07:25",
+      "arrival_time": "09:25",
+      "destination_airport": "Shanghai Hongqiao International Airport",
+      "schedule": "Daily",
+      "price": "TBD"
+    },
+    {
+      "id": 2,
+      "flight_number": "CA1821",
+      "airline": "Air China",
+      "departure_time": "07:30",
+      "arrival_time": "08:25",
+      "destination_airport": "Shanghai Pudong International Airport",
+      "schedule": "Daily",
+      "price": "TBD"
+    },
+    {
+      "id": 3,
+      "flight_number": "SC5134",
+      "airline": "Shandong Airlines",
+      "departure_time": "08:41",
+      "arrival_time": "10:44",
+      "destination_airport": "Shanghai Hongqiao International Airport",
+      "schedule": "Daily",
+      "price": "TBD"
+    }
+  ]
+}
